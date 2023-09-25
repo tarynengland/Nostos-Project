@@ -195,3 +195,15 @@ Received Import Request.
   path: Assets/Scenes/Menu.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Menu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d88743a37846ce43af37e0ab908c28') in 0.021632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4523.030736 seconds.
+  path: Assets/TileMaps/LPC_Ancient_Greece_Architecture.png
+  artifactKey: Guid(98f5d0411bf19f446b585a3568ee06ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/LPC_Ancient_Greece_Architecture.png using Guid(98f5d0411bf19f446b585a3568ee06ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7875434b4edf6150c57268258f0dd202') in 0.369932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/TileMaps/terrain.png
+  artifactKey: Guid(b46b3ae3595d6b14fb6c0381f02518a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/terrain.png using Guid(b46b3ae3595d6b14fb6c0381f02518a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4156b9d469d789c80f3a9b2653cbb350') in 0.186030 seconds 

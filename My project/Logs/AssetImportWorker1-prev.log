@@ -171,3 +171,15 @@ Received Import Request.
   path: Assets/Character
   artifactKey: Guid(098440e2a2c87924f9e46698d14f288f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Character using Guid(098440e2a2c87924f9e46698d14f288f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7b671215c7ad751d8008c9565d3d4e') in 0.052833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4595.994846 seconds.
+  path: Assets/TileMaps/RPGpack_sheet.png
+  artifactKey: Guid(5b5961c8e12eee849a8be260d7b0f955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/RPGpack_sheet.png using Guid(5b5961c8e12eee849a8be260d7b0f955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4b1cbd3dc9688b09dec02b50b2c2a0') in 0.510378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/TileMaps/tilemap.png
+  artifactKey: Guid(ffbe7a582b1f49f40bde88249857f86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMaps/tilemap.png using Guid(ffbe7a582b1f49f40bde88249857f86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff6ffd481cb8fc113276d64cbe2cfbb') in 0.054995 seconds 
