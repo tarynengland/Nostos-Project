@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 335355624}
   - component: {fileID: 335355627}
   - component: {fileID: 335355626}
+  - component: {fileID: 335355628}
   m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
@@ -37206,9 +37207,35 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths: []
+  m_ColliderPaths:
+  - m_Collider: {fileID: 335355628}
+    m_ColliderPaths:
+    - - X: 740000000
+        Y: 310000000
+      - X: -430000000
+        Y: 310000000
+      - X: -430000000
+        Y: -410000000
+      - X: 740000000
+        Y: -410000000
+    - - X: -300000000
+        Y: -310000000
+      - X: -300000000
+        Y: 210000000
+      - X: 610000000
+        Y: 210000000
+      - X: 610000000
+        Y: -310000000
   m_CompositePaths:
-    m_Paths: []
+    m_Paths:
+    - - {x: 73.99997, y: -41}
+      - {x: 73.99997, y: 31}
+      - {x: -43, y: 30.999971}
+      - {x: -42.999973, y: -41}
+    - - {x: 61, y: -30.999971}
+      - {x: -30, y: -30.999971}
+      - {x: -29.999971, y: 21}
+      - {x: 61, y: 20.999971}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!50 &335355627
@@ -37232,6 +37259,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!19719996 &335355628
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335355622}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
 --- !u!1 &402741662
 GameObject:
   m_ObjectHideFlags: 0
