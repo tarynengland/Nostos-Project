@@ -8,6 +8,7 @@ public class CharacterMove : MonoBehaviour
     public float hor;
     public float ver;
     private SpriteRenderer spriteRenderer;
+    private Animator animator;
 
     private float moveLimiter = 0.6f;
     public float speed = 4f;
@@ -16,17 +17,27 @@ public class CharacterMove : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         hor = Input.GetAxisRaw("Horizontal");
+        animator.SetFloat("Hor", hor);
         ver = Input.GetAxisRaw("Vertical");
+        animator.SetFloat("Ver", ver);
+        if(hor < 0){
+            spriteRenderer.flipX = true;
+        }else if(hor > 0){
+            spriteRenderer.flipX = false;
+        }
         
     }
     void FixedUpdate(){
         if(hor != 0 && ver != 0){
+            animator.SetFloat("Hor",hor);
+            animator.SetFloat("Ver",ver);
             hor *= moveLimiter;
             ver *= moveLimiter;
         }
