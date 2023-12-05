@@ -8,4 +8,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Episode 1.unity
+    guid: d43b5e1bbbbbb2246a3864c45ec9af72
+  - enabled: 1
+    path: Assets/Scenes/Episode 2.unity
+    guid: 8d5fe9644ba5922468c47801e2e06397
+  - enabled: 1
+    path: Assets/Scenes/Episode 3.unity
+    guid: a7ffc577592655a4a81efe937c9b1e00
+  - enabled: 1
+    path: Assets/Scenes/Episode 4.unity
+    guid: 1fba203d27e848f40bb0a50565cd6cbb
+  - enabled: 1
+    path: Assets/Scenes/Episode 5.unity
+    guid: 17f610154c520f64e9129fd90a916ed4
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 5557d6ceacd5d2940a9ff32c56e68dbd
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 95a818ba93165014ca09802953926622
   m_configObjects: {}
