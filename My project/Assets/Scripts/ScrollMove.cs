@@ -10,6 +10,7 @@ public class ScrollMove : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public float speed = 4f;
     private int jumpCount = 0;
+    private float force = 200;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +31,8 @@ public class ScrollMove : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space)){
             if (jumpCount < 5){
-                player.AddForce(new Vector2(0,100));
+                player.AddForce(new Vector2(0, force));
+                force *= .80f;
                 jumpCount++;}
         // else if (Input.GetKeyDown(KeyCode.UpArrow)){
         //    player.transform.position = new Vector3(transform.position.x, 50f,0f);
@@ -46,5 +48,6 @@ public class ScrollMove : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision2D)
     {
             jumpCount = 0;
+            force = 200;
     }
 }
