@@ -2876,9 +2876,10 @@ GameObject:
   - component: {fileID: 898854954}
   - component: {fileID: 898854953}
   - component: {fileID: 898854952}
+  - component: {fileID: 898854955}
   m_Layer: 0
   m_Name: Sky
-  m_TagString: Untagged
+  m_TagString: sky
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10842,6 +10843,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &898854955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898854948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4824b83b522339b4190b04856721c26a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Scenes/Episode 3
 --- !u!1 &1035050712
 GameObject:
   m_ObjectHideFlags: 0
@@ -10856,9 +10870,10 @@ GameObject:
   - component: {fileID: 1035050718}
   - component: {fileID: 1035050717}
   - component: {fileID: 1035050716}
+  - component: {fileID: 1035050719}
   m_Layer: 0
   m_Name: Sea
-  m_TagString: Untagged
+  m_TagString: sea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18776,6 +18791,19 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
+--- !u!114 &1035050719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035050712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4824b83b522339b4190b04856721c26a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Scenes/Episode 3
 --- !u!1 &1123260140
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - soul
   - Ground
+  - sea
+  - sky
   layers:
   - Default
   - TransparentFX

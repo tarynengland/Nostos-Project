@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 127267999}
   - component: {fileID: 127267998}
   - component: {fileID: 127267997}
+  - component: {fileID: 127268002}
   m_Layer: 0
   m_Name: Pit
   m_TagString: Untagged
@@ -185,7 +186,7 @@ CompositeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -367,6 +368,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &127268002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127267995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4824b83b522339b4190b04856721c26a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Scenes/Episode 2
 --- !u!1 &335355622
 GameObject:
   m_ObjectHideFlags: 0
@@ -84987,6 +85001,7 @@ GameObject:
   - component: {fileID: 523270424}
   - component: {fileID: 523270423}
   - component: {fileID: 523270422}
+  - component: {fileID: 523270425}
   m_Layer: 0
   m_Name: Fluff2
   m_TagString: Untagged
@@ -85908,7 +85923,7 @@ CompositeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -87317,6 +87332,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &523270425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523270418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4824b83b522339b4190b04856721c26a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: Scenes/Episode 4
 --- !u!1 &751536017
 GameObject:
   m_ObjectHideFlags: 0
@@ -135027,8 +135055,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2244214365924327245, guid: 9b12c676e15a53c4b83089f3d375e7a7, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2244214365924327249, guid: 9b12c676e15a53c4b83089f3d375e7a7, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244214365924327249, guid: 9b12c676e15a53c4b83089f3d375e7a7, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
